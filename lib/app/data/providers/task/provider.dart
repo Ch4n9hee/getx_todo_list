@@ -6,8 +6,7 @@ import 'package:getx_todo_list/app/data/models/task.dart';
 import 'package:getx_todo_list/app/data/services/storage/services.dart';
 
 class TaskProvider {
-  StorageService _storage = Get.find<StorageService>();
-
+  final StorageService _storage = Get.find<StorageService>();
   // {'tasks':[
   //   {'title':'Work',
   //   'color':'#ff123456',
